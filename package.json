@@ -61,7 +61,7 @@
     "lint-fix": "eslint --fix --ext .ts .",
     "build:ts": "rimraf build/ && tsc -p tsconfig.build.json",
     "build:browser": "node esbuild.js",
-    "build": "npm run build:ts && npm run build:browser",
+    "build": "npm run build:ts && npm run build:react-native",
     "prepare": "npm run build",
     "unit-test:node": "node_modules/.bin/nyc --reporter=lcov --reporter=text node -r esbuild-register test/runTests.ts",
     "unit-test:browser": "wtr",
