@@ -102,7 +102,7 @@
     "node": ">=16.0.0"
   },
   "browser": {
-    "./mqtt.js": "./dist/mqtt.js",
+    "./mqtt.js": "./build/lib/connect/react-native.js",
     "fs": false,
     "tls": false,
     "net": false
