@@ -3,6 +3,7 @@
 // React Native might not have a process object, so we need to polyfill it
 if (typeof process === 'undefined') {
   // eslint-disable-next-line no-global-assign
+  // @ts-nocheck
   process = {}
 };
 
