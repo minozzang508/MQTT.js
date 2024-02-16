@@ -108,7 +108,7 @@
     "net": false
   },
   "react-native": {
-    "./mqtt.js": "./lib/connect/react-native.js",
+    "./mqtt.js": "./build/lib/connect/react-native.js",
     "fs": false,
     "tls": false,
     "net": false
